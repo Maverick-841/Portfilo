@@ -163,14 +163,25 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Real-Time Chat Application",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      "A real-time chat web application built with React that enables users to send and receive messages instantly. It supports user authentication, live messaging using WebSockets, and a responsive UI for seamless communication across devices.",
     image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    tags: [
+      "React JS",
+      "JavaScript",
+      "MongoDB",
+      "Socket.IO",
+      "Node.js",
+      "Express.js",
+      "REST API",
+      "HTML",
+      "Tailwind CSS"
+    ],
+    github: "https://github.com/Maverick-841/Chat-app",
+    webapp: "https://chat-app-3s3f.vercel.app/",
   },
+
   {
     id: 3,
     title: "Email Validator NPM Package",
