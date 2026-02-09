@@ -27,15 +27,8 @@ import parulLogo from "./assets/education_logo/parulLogo.png";
 import interLogo from "./assets/education_logo/interLogo.png";
 
 // ================= PROJECT LOGOS =================
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import moodMitraLogo from "./assets/work_logo/Moodmitra.png";
 import ecommerceLogo from "./assets/work_logo/ecommerce.png";
 
 
@@ -47,28 +40,27 @@ export const SkillsInfo = [
       { name: "HTML", logo: htmlLogo },
       { name: "CSS", logo: cssLogo },
       { name: "React", logo: reactjsLogo },
-      { name: "Tailwind", logo: tailwindcssLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node", logo: nodejsLogo },
-      { name: "Express", logo: expressjsLogo },
-      { name: "Mongo", logo: mongodbLogo },
+      { name: "Node.js", logo: nodejsLogo },
+      { name: "Express.js", logo: expressjsLogo },
+      { name: "MongoDB", logo: mongodbLogo },
       { name: "MySQL", logo: mysqlLogo },
-      { name: "JWT", logo: apiLogo },
-      { name: "REST API", logo: jwtLogo },
+      { name: "JWT", logo: jwtLogo },
+      { name: "REST API", logo: apiLogo },
     ],
-
   },
   {
     title: "Languages",
     skills: [
       { name: "C", logo: cLogo },
       { name: "Python", logo: pythonLogo },
-      { name: "JS", logo: javascriptLogo },
+      { name: "JavaScript", logo: javascriptLogo },
     ],
   },
   {
@@ -91,15 +83,15 @@ export const experiences = [
     role: "Full Stack Developer (Self Projects)",
     company: "Personal Projects",
     date: "2025 - Present",
-    desc: "Built multiple full-stack web applications using modern technologies. Developed responsive front-end interfaces and implemented backend APIs. Focused on writing clean code and learning industry best practices.",
+    desc: "Built multiple full-stack web applications using modern technologies. Developed responsive front-end interfaces and implemented backend APIs while following clean code and best practices.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "React JS",
       "Tailwind CSS",
-      "Node JS",
-      "Express JS",
+      "Node.js",
+      "Express.js",
       "MongoDB",
     ],
   },
@@ -109,8 +101,15 @@ export const experiences = [
     role: "Web Development Student",
     company: "Parul University",
     date: "2025 - Present",
-    desc: "Learning and practicing web development through coursework and hands-on projects.",
-    skills: ["C", "Python", "JavaScript", "React JS", "Machine Learning", "Artificial Intelligence", "Generative AI"],
+    desc: "Learning and practicing web development through coursework and hands-on projects with focus on modern web and AI fundamentals.",
+    skills: [
+      "C",
+      "Python",
+      "JavaScript",
+      "React JS",
+      "Artificial Intelligence",
+      "Generative AI",
+    ],
   },
 ];
 
@@ -123,7 +122,7 @@ export const education = [
     school: "Parul University, Vadodara, Gujarat",
     date: "2024 - 2028 (Pursuing)",
     grade: "B.Tech CSE (AI & ML) - 2nd Year",
-    desc: "Currently pursuing Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning.",
+    desc: "Pursuing Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning.",
     degree: "Bachelor of Technology - CSE (AI & ML)",
   },
   {
@@ -144,53 +143,61 @@ export const projects = [
     id: 0,
     title: "E-Commerce Web Application",
     description:
-      "A full-stack e-commerce web application that allows users to browse products, add items to cart, and place orders through a clean and responsive interface. The application includes user authentication, product management, and a seamless shopping experience. Built with modern web technologies to ensure performance, scalability, and usability.",
-    image: ecommerceLogo,   // change this if you have an image
+      "A full-stack e-commerce web application that allows users to browse products, manage carts, and place orders through a responsive and user-friendly interface. Includes authentication, product management, and RESTful APIs.",
+    image: ecommerceLogo,
     tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
       "React JS",
+      "JavaScript",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Payment Integration",
-      "REST API"
+      "REST API",
+      "HTML",
+      "CSS",
     ],
     github: "https://github.com/Maverick-841/kumar",
     webapp: "https://maverick-frontend1-git-main-charantejreddys-projects.vercel.app/",
-
   },
+
   {
-    id: 2,
+    id: 1,
     title: "Real-Time Chat Application",
     description:
-      "A real-time chat web application built with React that enables users to send and receive messages instantly. It supports user authentication, live messaging using WebSockets, and a responsive UI for seamless communication across devices.",
+      "A real-time chat application enabling instant messaging with live updates using WebSockets. Built with React and Node.js, featuring a responsive UI and scalable backend.",
     image: movierecLogo,
     tags: [
       "React JS",
       "JavaScript",
-      "MongoDB",
       "Socket.IO",
       "Node.js",
       "Express.js",
       "REST API",
-      "HTML",
-      "Tailwind CSS"
+      "Tailwind CSS",
     ],
     github: "https://github.com/Maverick-841/Chat-app",
     webapp: "https://chat-app-3s3f.vercel.app/",
   },
 
   {
-    id: 3,
-    title: "Email Validator NPM Package",
+    id: 2,
+    title: "MoodMitra",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "MoodMitra is an AI-powered web application that uses Retrieval-Augmented Generation (RAG) with Ollama-based local LLMs to generate contextual and supportive responses based on user input, focusing on emotional awareness and reflection.",
+    image: moodMitraLogo,
+    tags: [
+      "React JS",
+      "JavaScript (ES6+)",
+      "Node.js",
+      "REST API",
+      "Ollama",
+      "RAG (Retrieval-Augmented Generation)",
+      "Prompt Engineering",
+      "AI Integration",
+      "HTML",
+      "CSS",
+      "Responsive Design",
+    ],
+    github: "https://github.com/Maverick-841/HACKTHON",
+    webapp: "https://hackthon-eight-nu.vercel.app/",
   },
 ];
-
