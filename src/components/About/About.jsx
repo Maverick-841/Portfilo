@@ -50,6 +50,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
 
             <a
+            
               href="/Charan_tej_Reddy.pdf"
               download
               className="px-7 py-2.5 rounded-full font-bold text-white text-base transition-all"
