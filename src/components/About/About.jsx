@@ -50,10 +50,9 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
 
             <a
-              href="about:blank"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-7 py-2.5 rounded-full font-bold text-white text-base transition-all duration-300 hover:scale-105"
+              href="/Charan_tej_Reddy.pdf"
+              download
+              className="px-7 py-2.5 rounded-full font-bold text-white text-base transition-all"
               style={{
                 background: "linear-gradient(90deg,#8245ec,#a855f7)",
                 boxShadow: "0 0 15px rgba(130,69,236,0.8)",
