@@ -49,8 +49,7 @@ const About = () => {
           {/* BUTTONS */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
 
-            <a
-            
+            <a                    
               href="/Charan_tej_Reddy.pdf"
               download
               className="px-7 py-2.5 rounded-full font-bold text-white text-base transition-all"
@@ -58,7 +57,7 @@ const About = () => {
                 background: "linear-gradient(90deg,#8245ec,#a855f7)",
                 boxShadow: "0 0 15px rgba(130,69,236,0.8)",
               }}
-            >
+            >                               
               Download CV
             </a>
 
@@ -67,10 +66,10 @@ const About = () => {
               className="px-7 py-2.5 rounded-full font-bold text-base text-white border border-purple-500 hover:bg-purple-600 transition-all duration-300"
             >
               Contact Me
-            </a>
+             </a>
 
           </div>
-
+                    
         </div>
 
         {/* RIGHT IMAGE */}
@@ -83,12 +82,8 @@ const About = () => {
               alt="Charan Tej Reddy"
               className="w-full h-full object-cover rounded-full object-[70%_40%]"
             />
-
-
           </div>
-
         </div>
-
       </div>
     </section>
   );
