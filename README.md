@@ -1,16 +1,97 @@
-# React + Vite
+# Charan Tej Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+This portfolio showcases:
+- About section with animated role typing
+- Technical skills grouped by category
+- Experience timeline
+- Project showcase with modal details
+- Education details
+- Contact form that opens WhatsApp with prefilled message
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- React 18
+- Vite 5
+- Tailwind CSS
+- React Icons
+- React Typing Effect
+- Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Projects
 
-## Expanding the ESLint configuration
+- E-Commerce Web Application
+- Real-Time Chat Application
+- MoodMitra (AI-powered, RAG + Ollama)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Maverick-841/Portfilo.git
+cd Portfilo
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run in development
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal (usually `http://localhost:5173`).
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+	components/
+		About/
+		Skills/
+		Experience/
+		Work/
+		Education/
+		Contact/
+		Navbar/
+		Footer/
+	assets/
+	App.jsx
+	constasts.js
+	main.jsx
+```
+
+## Customization
+
+- Update profile details in the About and Footer components.
+- Edit skills, experience, education, and projects in `src/constasts.js`.
+- Replace images in `src/assets/`.
+- Update resume file in `public/`.
+
+## Connect
+
+- GitHub: https://github.com/Maverick-841
+- LinkedIn: https://www.linkedin.com/in/charantejreddy-kondreddy-a1346b384/
+- Twitter/X: https://x.com/Charantejr63190
+
+## License
+
+This project is open source and available under the MIT License.
